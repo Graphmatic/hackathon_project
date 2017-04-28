@@ -794,6 +794,11 @@ td {
     color: #E91E63;
     margin-top: 0.5em;
 }
+.twitter{
+    overflow-y: scroll;
+    height: 75vh;
+    border-radius: 8px;
+}
 
 .wrap-Press {
     background-color: white;

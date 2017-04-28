@@ -75,12 +75,15 @@
         font-size: 3em;
         border: none;
     }
+
     #wrapTitleJeudi,
     #wrapProgJeudi,
     #wrapTitleVendredi,
     #wrapProgVendredi {
         top: 0;
         margin-top: 28px;
+        margin-left: 0 !important;
+        border-radius: 8px; 
     }
     #wrapProgJeudi p:last-of-type {
         margin-top: 22px !important;
@@ -88,8 +91,8 @@
     #wrapProgVendredi p:last-of-type {
         margin-top: 22px !important;
     }
-    #wrapProgJeudi,
-    #wrapProgVendredi * {
+    #wrapProgJeudi, #wrapProgVendredi{
+        height: 100%;
         text-align: center;
     }
     .navbar-toggle {
@@ -120,6 +123,72 @@
         width: 90%;
         margin: 5%;
     }
+
+    .page-header{
+        color: #E91E63;
+        height: auto;
+    }
+    .taller{
+        font-weight: bold;
+    }
+    .page-4 div h1{
+        font-weight: bold;
+        margin-left: 0;
+        text-align: center;
+    }
+    .page-2{
+        height: 100%;
+    }
+    .page-content{
+        height: 100%;
+        /*padding-top: 0;*/
+    }
+    .page-2 h1 span,
+    .page-3 h1
+    {
+        text-align: center !important;
+        margin: -21px auto 18px;
+        border: none;
+        width: 100%;
+        font-weight: bold;
+    }
+    .page{
+        height: 95%;
+    }
+    .programme-hidden{
+        writing-mode: horizontal-tb;
+        text-orientation: unset;
+        font-size: 4em;
+        margin: auto 0;
+    }
+    .page-header h1{
+        border: none;
+    }
+    .page-5 h1{
+        margin-top: -1em;
+        text-align: center; 
+    }
+    #wrapPart1,
+    #wrapPart2{
+        margin-bottom: 1em;
+        height: 100%;
+        border-radius: 8px;
+    }
+    .page-6 div h1{
+        font-size: 3em;
+    }
+    .wrap-Press{
+        margin: 0 2.5% 1em;
+        height: 100%;
+    }
+    .title-presse{
+        padding-top: 1em;
+    }
+    .same-height, .resize-it-vertical, .resize-it-vertical-organisateur{
+        margin-left: 0 ;
+        margin-right: 0 ;
+    }
+
 }
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
@@ -138,4 +207,5 @@
         letter-spacing: 0px;
         color: #080808;
     }
+    
 }
