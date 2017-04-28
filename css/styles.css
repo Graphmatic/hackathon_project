@@ -501,7 +501,7 @@ td {
     font-size: 3em;
     left: 10%;
     margin-top: 40vh;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .programme-hidden {

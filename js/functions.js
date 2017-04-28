@@ -157,6 +157,31 @@ $(document).ready(function() {
             });
         }
     });
+    let wrapJeudi = document.getElementById('wrapTitleJeudi');
+    let wrapVendredi = document.getElementById('wrapTitleVendredi');
+
+    let wrapProgJeudi = document.getElementById('wrapProgJeudi');
+    let wrapProgVendredi = document.getElementById('wrapProgVendredi');
+
+    wrapJeudi.addEventListener('click', showProg);
+    wrapVendredi.addEventListener('click', showProg);
+    wrapProgJeudi.addEventListener('click', hideProg);
+    wrapProgVendredi.addEventListener('click', hideProg);
+
+    function showProg(event) {
+        wrapJeudi.classList.add('noDispl');
+        wrapVendredi.classList.add('noDispl');
+        wrapProgJeudi.classList.remove('noDispl');
+        wrapProgVendredi.classList.remove('noDispl');
+
+    }
+
+    function hideProg(event) {
+        wrapJeudi.classList.remove('noDispl');
+        wrapVendredi.classList.remove('noDispl');
+        wrapProgJeudi.classList.add('noDispl');
+        wrapProgVendredi.classList.add('noDispl');
+    }
 
     /* map google */
     $('.map-icon').on('click', function(e) {
@@ -167,7 +192,12 @@ $(document).ready(function() {
         //   window.scrollTo(0, $('.footer').offset().top);
         initMap();
     });
+
+
+
 });
+
+
 
 function initMap() {
     var quaiSavoir = {
@@ -187,74 +217,6 @@ function initMap() {
 /* FIN Florian */
 
 /* Noé */
-let wrapJeudi = document.getElementById('wrapTitleJeudi');
-let wrapVendredi = document.getElementById('wrapTitleVendredi');
-
-let wrapProgJeudi = document.getElementById('wrapProgJeudi');
-let wrapProgVendredi = document.getElementById('wrapProgVendredi');
-
-function showProg(event) {
-    wrapJeudi.classList.add('noDispl');
-    wrapVendredi.classList.add('noDispl');
-
-    wrapProgJeudi.classList.remove('noDispl');
-    wrapProgVendredi.classList.remove('noDispl');
-
-    // wrapJeudi.classList.add("noDispl")
-    // wrapVendredi.classList.add("noDispl")
-    // wrapProgJeudi.classList.remove("noDispl")
-    // wrapProgVendredi.classList.remove("noDispl")
-
-    // wrapJeudi.classList.remove("transitionIn")
-    // wrapVendredi.classList.remove("transitionIn")
-
-    // wrapJeudi.classList.add("transitionOut")
-    // wrapVendredi.classList.add("transitionOut")
-
-    // setTimeout(function () {
-    //     wrapProgJeudi.classList.remove("noDispl")
-    //     wrapProgVendredi.classList.remove("noDispl")
-    //     wrapJeudi.classList.add("noDispl")
-    //     wrapVendredi.classList.add("noDispl")
-
-    //     wrapProgJeudi.classList.remove("transitionOut")
-    //     wrapProgVendredi.classList.remove("transitionOut")
-
-    //     wrapProgJeudi.classList.add("transitionIn")
-    //     wrapProgVendredi.classList.add("transitionIn")
-    // }, 000)
-}
-
-function hideProg(event) {
-    wrapJeudi.classList.remove('noDispl');
-    wrapVendredi.classList.remove('noDispl');
-    wrapProgJeudi.classList.add('noDispl');
-    wrapProgVendredi.classList.add('noDispl');
-    // wrapProgJeudi.classList.add("transitionOut")
-    // wrapProgVendredi.classList.add("transitionOut")
-
-    // wrapProgJeudi.classList.remove("transitionIn")
-    // wrapProgVendredi.classList.remove("transitionIn")
-
-    // setTimeout(function () {
-    //     wrapJeudi.classList.remove("noDispl")
-    //     wrapVendredi.classList.remove("noDispl")
-    //     wrapProgJeudi.classList.add("noDispl")
-    //     wrapProgVendredi.classList.add("noDispl")
-
-    //     wrapJeudi.classList.remove("transitionOut")
-    //     wrapVendredi.classList.remove("transitionOut")
-
-    //     wrapJeudi.classList.add("transitionIn")
-    //     wrapVendredi.classList.add("transitionIn")
-    // }, 2300)
-
-}
-
-wrapJeudi.addEventListener('click', showProg);
-wrapVendredi.addEventListener('click', showProg);
-wrapProgJeudi.addEventListener('click', hideProg);
-wrapProgVendredi.addEventListener('click', hideProg);
 
 /* FIN Noé */
 

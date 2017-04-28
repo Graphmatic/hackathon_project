@@ -1,211 +1,226 @@
-/*--- xs only ---*/
-
-@media all and (max-width: 767px) {
-    .menu-li {
-        font-size: 2em;
+    /*--- xs only ---*/
+    
+    @media all and (max-width: 767px) {
+        .menu-li {
+            font-size: 2em;
+        }
+        .close-menu {
+            width: 36px;
+            height: 36px;
+            position: absolute;
+            bottom: 12px;
+            margin: 0;
+            opacity: 0.7;
+        }
+        .close-menu:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
+        .menu-ul {
+            width: 87vw!important;
+            min-height: 85vh!important;
+            line-height: 85vh!important;
+            padding: 0;
+            list-style-type: none!important;
+            -webkit-padding-start: 0!important;
+        }
+        .menu-li {
+            margin: auto;
+            font-size: 2em;
+            text-align: center;
+        }
+        .countdown-wrapper {
+            display: block;
+            position: absolute;
+            bottom: 0;
+            max-height: 36vh;
+            padding: 0;
+        }
+        #countdown {
+            margin: 0;
+            font-size: 2.8em!important;
+            font-weight: 100;
+            text-align: center;
+        }
+        .countdown-global {
+            text-shadow: 1px 1px 3px #000;
+        }
+        .counter-table {
+            width: 100vw;
+            float: none;
+        }
+        .countdown-letter td {
+            font-size: 1.8em;
+            font-weight: 100;
+            text-align: center;
+        }
+        .page-2-content,
+        .page-3-content,
+        .page-4-content {
+            height: auto;
+            background-attachment: initial;
+        }
+        .page-2 h1,
+        .page-3 h1,
+        .page-4 h1,
+        .page-5 h1,
+        .page-6 h1 {
+            margin: 38px auto 1em;
+            font-size: 3em;
+            border: none;
+            color: #000;
+            text-align: center !important;
+            color: #000;
+            border: none;
+            width: 100%;
+            font-size: 3em;
+            font-weight: 300! important;
+        }
+        h1 span {
+            background: none!important;
+            padding: 0!important;
+        }
+        .page-2 h2 {
+            line-height: 1.5em;
+            margin: -6px 0 20px;
+        }
+        .page-3 h1,
+        .page-4 h1 {
+            /*margin: 45px auto 18px;*/
+            font-size: 3em;
+            border: none;
+        }
+        #wrapTitleJeudi,
+        #wrapProgJeudi,
+        #wrapTitleVendredi,
+        #wrapProgVendredi {
+            top: 0;
+            margin-top: 28px;
+            margin-left: 0 !important;
+            border-radius: 8px;
+        }
+        #wrapProgJeudi p:last-of-type {
+            margin-top: 22px !important;
+        }
+        #wrapProgVendredi p:last-of-type {
+            margin-top: 22px !important;
+        }
+        #wrapProgJeudi,
+        #wrapProgVendredi {
+            height: 100%;
+            text-align: center;
+        }
+        .navbar-toggle {
+            padding: 0;
+        }
+        .navbar-toggle .icon-bar {
+            display: block;
+            width: 34px;
+            height: 3px;
+            border-radius: 0;
+            /*background-color: rgba(0, 0, 0, 0.35)!important;*/
+        }
+        .text-block {
+            font-size: 0.8em;
+            padding: 12px 24px;
+        }
+        .page-2-ul {
+            text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.43);
+            font-size: 1.8em;
+            font-weight: 300;
+            line-height: 1.4em;
+            list-style: none;
+            margin: 5px 0;
+            -webkit-padding-start: 0px;
+            text-align: center;
+        }
+        .open-data-link {
+            width: 90%;
+            margin: 5%;
+        }
+        .page-header {
+            background: rgba(255, 255, 255, 0.35);
+            /*color: #E91E63;*/
+            height: auto;
+        }
+        .page-content-alt {
+            /*height: 100vh;*/
+            padding: 0 1% 10vh;
+        }
+        .title-small {
+            background: rgba(255, 255, 255, 0.35);
+            height: auto;
+        }
+        .page {
+            height: auto;
+        }
+        .page-4 div h1 {
+            font-weight: bold;
+            text-align: center;
+        }
+        .page-2 {
+            height: 100%;
+        }
+        .page-content {
+            height: 100%;
+            padding-top: 0 2% !important;
+        }
+        .programme-hidden {
+            writing-mode: horizontal-tb;
+            text-orientation: unset;
+            font-size: 4em;
+        }
+        #wrapTitleJeudi,
+        #wrapTitleVendredi {
+            height: 22vh;
+            margin: 10vh 0 2vh !important;
+            padding: 7vh;
+            opacity: 0.8;
+        }
+        .page-header h1 {
+            border: none;
+        }
+        #wrapPart1,
+        #wrapPart2 {
+            margin: 30px 0px;
+            height: initial;
+            border-radius: 8px;
+        }
+        .page-6 div h1 {
+            font-size: 3em;
+        }
+        .wrap-Press {
+            margin: 0 2.5% 1em;
+            height: 100%;
+        }
+        .title-presse {
+            padding-top: 1em;
+        }
+        .same-height,
+        .resize-it-vertical,
+        .resize-it-vertical-organisateur {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .text-partenariat {
+            font-size: 1.6em;
+        }
     }
-    .close-menu {
-        width: 36px;
-        height: 36px;
-        position: absolute;
-        bottom: 12px;
-        margin: 0;
-        opacity: 0.7;
+    
+    @media screen and (min-width: 480px) and (max-width: 767px) {
+        .home-title {
+            margin: 14% 0 0 4%;
+            font-weight: 400;
+            font-size: 3.7em;
+            width: 100%;
+            letter-spacing: -3px;
+            color: #000;
+        }
+        .home-sub-title {
+            margin-left: 11%;
+            font-size: 5.0em;
+            width: 100%;
+            letter-spacing: 0px;
+            color: #080808;
+        }
     }
-    .close-menu:hover {
-        opacity: 1;
-        cursor: pointer;
-    }
-    .menu-ul {
-        width: 87vw!important;
-        min-height: 85vh!important;
-        line-height: 85vh!important;
-        padding: 0;
-        list-style-type: none!important;
-        -webkit-padding-start: 0!important;
-    }
-    .menu-li {
-        margin: auto;
-        font-size: 2em;
-        text-align: center;
-    }
-    .countdown-wrapper {
-        display: block;
-        position: absolute;
-        bottom: 0;
-        max-height: 36vh;
-        padding: 0;
-    }
-    #countdown {
-        margin: 0;
-        font-size: 2.8em!important;
-        font-weight: 100;
-        text-align: center;
-    }
-    .counter-table {
-        width: 100vw;
-        float: none;
-    }
-    .countdown-letter td {
-        font-size: 1.8em;
-        font-weight: 100;
-        text-align: center;
-    }
-    .page-2-content,
-    .page-3-content,
-    .page-4-content {
-        height: auto;
-        background-attachment: initial;
-    }
-    .page-2 h1 {
-        margin: 38px auto 1em;
-        font-size: 3em;
-        border: none;
-    }
-    h1 span {
-        background: none!important;
-        padding: 0!important;
-    }
-    .page-2 h2 {
-        line-height: 1.5em;
-        margin: -6px 0 20px;
-    }
-    .page-3 h1 {
-        margin: 45px auto 18px;
-        font-size: 3em;
-        border: none;
-    }
-    #wrapTitleJeudi,
-    #wrapProgJeudi,
-    #wrapTitleVendredi,
-    #wrapProgVendredi {
-        top: 0;
-        margin-top: 28px;
-        margin-left: 0 !important;
-        border-radius: 8px;
-    }
-    #wrapProgJeudi p:last-of-type {
-        margin-top: 22px !important;
-    }
-    #wrapProgVendredi p:last-of-type {
-        margin-top: 22px !important;
-    }
-    #wrapProgJeudi,
-    #wrapProgVendredi {
-        height: 100%;
-        text-align: center;
-    }
-    .navbar-toggle {
-        padding: 0;
-    }
-    .navbar-toggle .icon-bar {
-        display: block;
-        width: 34px;
-        height: 3px;
-        border-radius: 0;
-        background-color: rgba(0, 0, 0, 0.35)!important;
-    }
-    .text-block {
-        font-size: 0.8em;
-        padding: 12px 24px;
-    }
-    .page-2-ul {
-        text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.43);
-        font-size: 1.8em;
-        font-weight: 300;
-        line-height: 1.4em;
-        list-style: none;
-        margin: 5px 0;
-        -webkit-padding-start: 0px;
-        text-align: center;
-    }
-    .open-data-link {
-        width: 90%;
-        margin: 5%;
-    }
-    .page-header {
-        color: #E91E63;
-        height: auto;
-    }
-    .taller {
-        font-weight: bold;
-    }
-    .page-4 div h1 {
-        font-weight: bold;
-        text-align: center;
-    }
-    .page-2 {
-        height: 100%;
-    }
-    .page-content {
-        height: 100%;
-        /*padding-top: 0;*/
-    }
-    .page-2 h1 span,
-    .page-3 h1 {
-        text-align: center !important;
-        margin: -21px auto 18px;
-        border: none;
-        width: 100%;
-        font-weight: bold;
-    }
-    .page {
-        height: 95%;
-    }
-    .programme-hidden {
-        writing-mode: horizontal-tb;
-        text-orientation: unset;
-        font-size: 4em;
-        margin: auto 0;
-    }
-    .page-header h1 {
-        border: none;
-    }
-    .page-5 h1 {
-        margin-top: -1em;
-        text-align: center;
-    }
-    #wrapPart1,
-    #wrapPart2 {
-        margin-bottom: 1em;
-        height: 100%;
-        border-radius: 8px;
-    }
-    .page-6 div h1 {
-        font-size: 3em;
-    }
-    .wrap-Press {
-        margin: 0 2.5% 1em;
-        height: 100%;
-    }
-    .title-presse {
-        padding-top: 1em;
-    }
-    .same-height,
-    .resize-it-vertical,
-    .resize-it-vertical-organisateur {
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .text-partenariat {
-        font-size: 1.6em;
-    }
-}
-
-@media screen and (min-width: 480px) and (max-width: 767px) {
-    .home-title {
-        margin: 14% 0 0 4%;
-        font-weight: 400;
-        font-size: 3.7em;
-        width: 100%;
-        letter-spacing: -3px;
-        color: #000;
-    }
-    .home-sub-title {
-        margin-left: 11%;
-        font-size: 5.0em;
-        width: 100%;
-        letter-spacing: 0px;
-        color: #080808;
-    }
-}
