@@ -156,7 +156,8 @@ h2 {
 .countdown-global {
     color: #ffffff;
     text-align: justify;
-    text-shadow: 1px 1px 1px #E91E63;
+    font-weight: 300;
+    /*   text-shadow: 1px 1px 1px #E91E63; */
     -webkit-transform: scale(1, 1.6);
     -moz-transform: scale(1, 1.6);
     -ms-transform: scale(1, 1.6);
@@ -571,7 +572,7 @@ td {
 }
 
 #wrapProgJeudi p:last-of-type {
-    margin-top: 2em !important;
+    margin-top: 1em !important;
 }
 
 #wrapProgVendredi * {
@@ -579,7 +580,7 @@ td {
 }
 
 #wrapProgVendredi p:last-of-type {
-    margin-top: 2em !important;
+    margin-top: 1em !important;
 }
 
 .noDispl {
@@ -794,7 +795,8 @@ td {
     color: #E91E63;
     margin-top: 0.5em;
 }
-.twitter{
+
+.twitter {
     overflow-y: scroll;
     height: 75vh;
     border-radius: 8px;

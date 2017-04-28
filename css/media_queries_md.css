@@ -209,7 +209,7 @@
                                                 }
                                                 #countdown {
                                                     font-size: 6em;
-                                                    font-weight: 100;
+                                                    font-weight: 300;
                                                     /*font-weight: 200;*/
                                                     text-align: justify;
                                                 }
@@ -217,17 +217,25 @@
                                                     margin: 50px auto 1em!important;
                                                     font-size: 3em!important;
                                                     border: none!important;
+                                                    text-align: center;
                                                 }
                                                 h1 span {
                                                     background: none!important;
                                                     padding: 0!important;
+                                                }
+                                                .page-content-alt,
+                                                .page-content {
+                                                    padding: 3vh 1%;
+                                                }
+                                                .page-header {
+                                                    padding: 2vh 0 0;
                                                 }
                                                 #wrapTitleJeudi,
                                                 #wrapProgJeudi,
                                                 #wrapTitleVendredi,
                                                 #wrapProgVendredi {
                                                     top: 0;
-                                                    margin-top: 28px;
+                                                    margin: 28px 0;
                                                     padding: 20px 0;
                                                 }
                                                 #wrapProgJeudi p:last-of-type {
@@ -277,6 +285,23 @@
                                                 .page-4-content {
                                                     background-image: url("../img/bg_pages_991.png");
                                                 }
+                                                #wrapPart1,
+                                                #wrapPart2 {
+                                                    height: 50%;
+                                                    margin: 2vh 0;
+                                                }
+                                                .wrap-Press {
+                                                    height: 50%;
+                                                    background-color: white;
+                                                    border-radius: 5px;
+                                                    /* height: 75vh; */
+                                                    margin: 3vh 3vw;
+                                                }
+                                                .title-presse {
+                                                    text-align: center;
+                                                    font-size: 3em;
+                                                    padding: 2vh;
+                                                }
                                             }
                                             /*--- sm and md only --- */
                                             
@@ -291,7 +316,7 @@
                                                     margin: 12px 20px;
                                                 }
                                                 .center-it-vertical {
-                                                    margin: 12px 0;
+                                                    margin: 12px 50px;
                                                 }
                                                 .page-3 h1 {
                                                     margin: 78vh auto 1em;
