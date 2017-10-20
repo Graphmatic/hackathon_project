@@ -5,8 +5,7 @@ function countingFunc() {
     let counterTxt = $('#countdown');
 
 // Set the date we're counting down to
-    let countDownDate = new Date("Jul 8, 2017 09:00:00").getTime();
-// let countDownDate = new Date("Apr 12, 2017 15:12:00").getTime();
+    let countDownDate = new Date("Dec 31, 2017 00:00:00").getTime();
 
 //switch color when time is round
     let roundTime = false;

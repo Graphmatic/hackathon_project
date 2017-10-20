@@ -1,2 +1,6 @@
 # hackathon_project
-a website for hackathon event
+
+a website realised during school hackathon event
+
+Preview: https://graphmatic.github.io/hackathon_project
+
